@@ -9,10 +9,10 @@ ARG timezone
 ENV COMPOSER_ALLOW_SUPERUSER 1
 ENV TIMEZONE=${timezone:-"Asia/Shanghai"}
 
-LABEL org.opencontainers.image.authors="dior-pcis" \
+LABEL org.opencontainers.image.authors="horsecma" \
       org.opencontainers.image.description="Application packaged by DIOR PCIS" \
       org.opencontainers.image.ref.name="magento-2.4.5" \
-      org.opencontainers.image.source="https://dev.azure.com/KTDTC/DIOR%20E-Commerce/_git/dior-bz-platform_env-magento" \
+      org.opencontainers.image.source="https://dev.azure.com/%20E-Commerce/_git/dior-bz-platform_env-magento" \
       org.opencontainers.image.title="php8.2" \
       org.opencontainers.image.vendor="Shanghai Kaytune Industrial Co., Ltd." \
       org.opencontainers.image.version="1.0.0"
